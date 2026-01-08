@@ -1,15 +1,23 @@
 # Superconductor Critical Temperature Prediction
 
-## Table of Contents - [Project Overview](#project-overview) - [Motivation](#motivation) - [Data Source](#data-source) - [Objectives](#objectives) - [Methods](#methods) - [Results](#results) - [Repository Structure](#repository-structure) - [References](#references)
+## Table of Contents 
+- [Project Overview](#project-overview)
+- [Motivation](#motivation)
+- [Data Source](#data-source)
+- [Objectives](#objectives)
+- [Methods](#methods)
+- [Results](#results)
+- [Repository Structure](#repository-structure)
+- [References](#references)
 ---
 ## Project Overview
-This project leverages machine learning models to predict the **critical temperature (TC)** of superconductors and to classify materials as **high-TC or low-TC**. The models used include **Ridge Regression**, **Lasso Regression**, **XGBoost**, and **Support Vector Machines (SVMs)**.
-The analysis aims to guide the use of high-TC superconductors in **MRI machines**, reducing dependency on liquid helium by instead utilizing **liquid nitrogen**, which is more cost-effective and sustainable.
+This project uses machine learning models to predict the **critical temperature (TC)** of superconductors and to classify materials as high-TC or low-TC. The models used include Ridge Regression, Lasso Regression, XGBoost, and Support Vector Machines (SVMs).
+The analysis aims to guide the use of high-TC superconductors in MRI machines, reducing dependency on liquid helium by instead utilizing liquid nitrogen, which is more cost-effective and sustainable.
 
 ---
 ## Motivation
-Superconductors, materials that conduct electricity with **zero resistance**, exhibit unique magnetic properties such as the **Meissner Effect**. They are essential in applications like **MRI machines, power grids, and quantum computing**.
-Due to the high cost and scarcity of **liquid helium**, there's strong motivation to identify superconductors that operate above **77 K**, the boiling point of **liquid nitrogen**. These **high-TC superconductors** would allow MRI systems to run more economically.
+Superconductors, materials that conduct electricity with zero resistance, exhibit unique magnetic properties such as the Meissner Effect. Superconductors are essential to MRI machines, power grids, and quantum computing.
+Due to the high cost and scarcity of liquid helium, there's strong motivation to identify superconductors that operate above **77 K**, the boiling point of liquid nitrogen. These high-TC superconductors would allow MRI systems to run at a cheaper price. 
 
 ---
 ## Data Source
@@ -63,7 +71,6 @@ Superconductor_Analysis/
 │   └── lasso_ridge_predicted_vs_actual.xls
 ├── report/
 │   ├── Final_Report.pdf
-│   └── Presentation.pptx
 ├── scripts/
 │   └── final_project.ipynb
 └── README.md
