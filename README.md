@@ -12,7 +12,7 @@
 ---
 ## Project Overview
 This project uses machine learning models to predict the **critical temperature (TC)** of superconductors and to classify materials as high-TC or low-TC. The models used include Ridge Regression, Lasso Regression, XGBoost, and Support Vector Machines (SVMs).
-The analysis aims to guide the use of high-TC superconductors in MRI machines, reducing dependency on liquid helium by instead utilizing liquid nitrogen, which is more cost-effective and sustainable.
+The analysis aims to justify the use of high-TC superconductors in MRI machines, reducing liquid helium use by instead utilizing liquid nitrogen, which is more cost-effective and better for the environment. 
 
 ---
 ## Motivation
